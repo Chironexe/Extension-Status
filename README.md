@@ -1,6 +1,5 @@
-#Extension-Status
+# Extension-Status
 
-This is my first time interacting with JavaScript and Chrome extension and I decided to make something dumb.
-It was a pretty fun experience. Enjoy the dumb extension.
+This is my first time interacting with JavaScript and Chrome extension creation, so I decided to make something dumb. Enjoy the extension.
 
-Thank you, Chironex!
+I own none of the images or video material. I found them online.
