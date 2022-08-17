@@ -1,16 +1,3 @@
-// List of Adult websites
-const url_list = [
-    "https://gelbooru.com",
-    "https://www.gelbooru.com",
-    "https://rule34.xxx",
-    "https://danbooru.donmai.us",
-    "https://pornhub.com",
-    "https://rule34.paheal.net",
-    "https://nhentai.net",
-    "https://twitch.tv",
-    "https://hentai-foundry.com"
-];
-
 // This function takes a URL and loops through it to see if it's contained inside of the adult sites lsit.
 function checkAdultURL(url) {
     let check = false;
