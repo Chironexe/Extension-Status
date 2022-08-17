@@ -4,17 +4,16 @@
     "description":  "This is a very funny extension.",
     "version":  "0.1",
     "content_security_policy": "default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *;**script-src 'self' http://onlineerp.solution.quebec 'unsafe-inline' 'unsafe-eval';** ",
-    "_comment": "I have no idea what the content_security policy thing does. I just wanted to fix the stupid error it gave me.",
     "icons":    {
-        "16":   "/Data/vergil-16.png",
-        "48":   "/Data/vergil-48.png",
-        "128":  "/Data/vergil-128.png"
+        "16":   "/Data Files/vergil-16.png",
+        "48":   "/Data Files/vergil-48.png",
+        "128":  "/Data Files/vergil-128.png"
     },
     "page_action": {
         "default_icons":    {
-        "16":   "/Data/vergil-16.png",
-        "48":   "/Data/vergil-48.png",
-        "128":  "/Data/vergil-128.png"
+        "16":   "/Data Files/vergil-16.png",
+        "48":   "/Data Files/vergil-48.png",
+        "128":  "/Data Files/vergil-128.png"
         }
     },
     "content_scripts":  [{
