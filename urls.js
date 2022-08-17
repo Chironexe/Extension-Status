@@ -7,6 +7,7 @@ const url_list = [
     "https://gizmoxxx.com/",
     "https://hdsex.org/",
     "https://hentai-foundry.com",
+    "https://hentaihaven.xxx",
     "https://iporntv.mobi/",
     "https://kompoz2.com/",
     "https://motherless.com/",
