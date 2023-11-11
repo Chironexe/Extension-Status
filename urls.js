@@ -1,5 +1,5 @@
-// List of adult sites
-const url_list = [
+// List of adult websites
+const domainList = [
     "https://3gpjizz.mobi/",
     "https://chaturbate.com/",
     "https://danbooru.donmai.us",
