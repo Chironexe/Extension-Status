@@ -1,25 +1,18 @@
-// This function takes a URL and loops through it to see if it's contained inside of the adult sites lsit.
-function checkAdultURL(url) {
-    let check = false;
-
-    for (let i = 0; i < url_list.length; i++) {
-        // Check if the URL is in the list. if yes check = true, else check = false.
-        if (url == url_list[i]) {
-            check = true;
+// Checking if the given domain exists within the list of registered porn sites and return true if it does exist.
+function checkDomain(domainName) {
+    let isPornSite = false;
+    for (let i = 0; i < domainList.length; i++) {
+        if (domainName == domainList[i]) {
+            isPornSite = true;
             break;
         }
     }
-
-    //return a boolean depending on if the URL is in the list.
-    return check;
+    return isPornSite;
 }
 
-// Grab only the domain name and not the whole path.
-// For example only grab https://wiki.debian.org/ and not https://wiki.debian.org/Xfce
-let url = window.location.origin;
+let domainName = window.location.origin; // Grabbing the current tabs url
 
-// Check if the URL is contained within the list of adult sites.
-// if yes redirect else don't.
-if (checkAdultURL(url)) {
+// Calling the checkDomain function to verify if the given website is a porn site.
+if (checkDomain(domainName)) {
     window.location.replace("https://www.youtube.com/watch?v=_xcgTCvGbkA")
 }
