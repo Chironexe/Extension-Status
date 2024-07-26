@@ -18,11 +18,11 @@
     },
     "content_scripts":  [{
         "matches":  ["https://*/*"],
-        "js":   ["urls.js", "extension.js"]
+        "js":   ["extension.js"]
     }],
     "background": {
         "scripts": [
-            "urls.js", "extension.js"
+            "extension.js"
         ]
       }
 }
