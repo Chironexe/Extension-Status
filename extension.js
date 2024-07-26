@@ -1,4 +1,4 @@
-const url = 'https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn-only/hosts';
+const url = 'https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn-only/hosts'; // Credit to Steven Black for compiling this blocklist
 let domainList = []
 
 function checkDomain(domainName) {
