@@ -1,5 +1,4 @@
 # Extension-Status
-<hr>
 
 This is an extension for Chromium-based browsers such Google Chrome, Brave, Edge etc. The extension will detect what websites the user is trying to access and compare it to the huge list of sites it is given,
 if the user is trying to access a site full of adult material then they will be redirected to a different page.
